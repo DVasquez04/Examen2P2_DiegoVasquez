@@ -4,14 +4,18 @@
  */
 package examen2p2_diegovasquez;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Diego Vasquez
  */
-public class Usuario {
+public class Usuario implements Serializable{
     protected String UserName;
     protected String Password;
     protected int edad;//debe de ser mayor de 12 si es usuario, y 18 si es artista
+    
+    private static final Long serialVersionUID = 696L;
 
     public Usuario() {
     }

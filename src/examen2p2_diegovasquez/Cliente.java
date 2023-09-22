@@ -4,16 +4,20 @@
  */
 package examen2p2_diegovasquez;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
  * @author Diego Vasquez
  */
-public class Cliente extends Usuario{
+public class Cliente extends Usuario implements Serializable{
     private ArrayList<Cancion> CacionesFav = new ArrayList();
     private ArrayList<Cancion> PlayList = new ArrayList();
     private ArrayList<ListaReproduccion> LikedListasRep = new ArrayList();
+    
+    private static final Long serialVersionUID = 696L;
+
 
     public Cliente() {
         super();
