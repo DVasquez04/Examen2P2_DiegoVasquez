@@ -61,8 +61,6 @@ public class Examen extends javax.swing.JFrame {
         jTree2 = new javax.swing.JTree();
         jp_Editar_L = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<>();
         jd_Cliente = new javax.swing.JDialog();
         jPanel5 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
@@ -267,9 +265,6 @@ public class Examen extends javax.swing.JFrame {
         jLabel18.setForeground(new java.awt.Color(0, 0, 0));
         jLabel18.setText("Escoger que cancion Editar");
 
-        jList1.setModel(DefaultListModel m = new DefaultListModel());
-        jScrollPane3.setViewportView(jList1);
-
         javax.swing.GroupLayout jp_Editar_LLayout = new javax.swing.GroupLayout(jp_Editar_L);
         jp_Editar_L.setLayout(jp_Editar_LLayout);
         jp_Editar_LLayout.setHorizontalGroup(
@@ -277,21 +272,14 @@ public class Examen extends javax.swing.JFrame {
             .addGroup(jp_Editar_LLayout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(37, 37, 37)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(95, Short.MAX_VALUE))
+                .addContainerGap(332, Short.MAX_VALUE))
         );
         jp_Editar_LLayout.setVerticalGroup(
             jp_Editar_LLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jp_Editar_LLayout.createSequentialGroup()
-                .addGroup(jp_Editar_LLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jp_Editar_LLayout.createSequentialGroup()
-                        .addGap(119, 119, 119)
-                        .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jp_Editar_LLayout.createSequentialGroup()
-                        .addGap(44, 44, 44)
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 287, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(68, Short.MAX_VALUE))
+                .addGap(119, 119, 119)
+                .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(231, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Editar el beat", jp_Editar_L);
@@ -847,7 +835,6 @@ public class Examen extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JList<String> jList1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -856,7 +843,6 @@ public class Examen extends javax.swing.JFrame {
     private javax.swing.JProgressBar jProgressBar1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
